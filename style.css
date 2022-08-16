@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(39, 19, 5);
+}
+.pink{
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    border: solid white 10px;
+     display: inline-block;
+    background-color: rgb(122, 4, 104);
+    border-radius: 30%;
+    
+}
+.blue{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(18, 43, 110);
+    border: solid white 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 30%;
+    /* position: absolute; */
+    /* margin-top: 50%; */
+}
+.green{
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 30%;
+    border: solid white 10px;
+    background-color: rgb(31, 112, 84);
+    display: inline-block;
+    /* position: relative;
+    left: 50%;
+    bottom: 50%; */
+}
+.purple{
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 30%;
+    border: solid white 10px;
+    background-color: rgb(124, 48, 171);
+    display: inline-block;
+    /* position: relative;
+    bottom: 150%;
+    left: 50%; */
+    /* margin-top: 50%;
+    margin-left: 50%; */
+}
+.big-box1{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* width: 50%; */
+    background-color: rgba(6, 32, 5, 0.836);
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15%;
+   
+}
+.big-box2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 15%;
+
+    /* width: 50%; */
+    background-color:  rgba(6, 32, 5, 0.836);
+   
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  .gameover{
+    background-color: red;
+  }
+  @media (max-width: 670px) {
+    .big-box1{
+        height: 400x;
+        width: 200px;
+        /* grid-template-rows: auto auto; */
+    }
+    .big-box2{
+        height: 400x;
+        width: 200px;
+    }
+    
+  }
+/* .container{
+    margin: 0 auto;
+    /* width: 100%;
+    height: 70%;  */
+     /* display: flex;
+    justify-content: center;
+    text-align: center;
+} */
